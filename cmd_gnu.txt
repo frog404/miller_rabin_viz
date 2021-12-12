@@ -1,0 +1,10 @@
+set title graph_title
+set style line 2 lc rgbcolor "#B3FF0000" pt 5      # red square
+set style line 3 lc rgbcolor "#B300FF00" pt 7    # green circle
+set style line 4 lc rgbcolor "#B30000FF" pt 9     # blue triangle
+set logscale x 10
+set logscale y 10
+plot "order" with lines ls 1, \
+"power_operations" with points ls 2,\
+"multiplication_operations" with points ls 3,\
+"division_operations" with points ls 4

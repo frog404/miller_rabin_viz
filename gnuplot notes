@@ -1,0 +1,15 @@
+cmd memo
+w: with
+ls: line style
+fc: fill color
+ps: point size
+pt: point type ? (5 = square, 7 = circle, 9 = triangle are great !)
+lp linespoints
+
+HOW TOs
+how to define range of axis: plot [-1:5] [-1:5] or set xrange [0:5]
+how to run a script file: gnuplot -p path/to/sinx.p
+    -p for a persisting plot
+how to delete legend: unset key
+how to log scale: set logscale x 2
+

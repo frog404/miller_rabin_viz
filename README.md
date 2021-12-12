@@ -15,9 +15,13 @@ a prime number pass this test for any a
 
 list of super witness needed for the naturals:
 2,3 pour                              n < 1 373 653
+
 31, 73 pour                           n < 9 080 191
+
 2,3,5 pour                            n < 25 326 001
+
 2, 13, 23, 1 662 003 pour             n < 1 122 004 669 633
+
 2, 3, 5, 7, 11 pour                   n < 2 152 302 898 747
 
 max uint 64 =                             18 446 744 073 709 551 615
